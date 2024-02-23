@@ -7,16 +7,16 @@ import git from './git.png'
 import html5 from './html5.png'
 import npm from './npm.png'
 import css from './css.png'
-import typescript from './typescrit.png'
+import sass from './sass.png'
 
 export const techs = {
   html5,
   css,
   javascript,
-  typescript,
   react,
   npm,
   bootstrap,
+  sass,
   tailwind,
   git,
   githubPng

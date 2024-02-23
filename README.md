@@ -3,7 +3,8 @@
 
  ### Things to add
 
- - Personal picture
  - better form validation
  - animations
  - more proyects
+ - lenguage switch
+ - dark/light mode

@@ -4,8 +4,7 @@ function BentoItem ({ children, columns, img, rows, align = 'center', className 
     gridRow: rows,
     backgroundImage: `url(${img})`,
     backgroundPosition: 'center',
-    backgroundSize: 'contain',
-    backgroundRepeat: 'no-repeat',
+    backgroundSize: 'cover',
     textAlign: align
   }
   return (
