@@ -1,0 +1,30 @@
+.bento-container {
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+
+}
+
+
+.bento-item {
+    background-color: #333333;
+    position: relative;
+    border-radius: 5%;
+    overflow: hidden;
+
+    img.logo {
+        width: 80px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+div.about {
+    text-align: left;
+    padding: 10px 20px;
+    border-radius: 20px;
+}

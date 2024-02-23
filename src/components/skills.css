@@ -1,0 +1,16 @@
+.skills {
+    padding: 40px 20px;
+
+    .list {
+        margin-top: 20px;
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    img {
+        width: 80px;
+    }
+}
