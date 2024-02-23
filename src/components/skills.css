@@ -8,9 +8,15 @@
         flex-wrap: wrap;
         justify-content: center;
 
+        div {
+            display: grid;
+            place-items: center;
+            width: 80px;
+        }
+
     }
 
     img {
-        width: 80px;
+        width: 100%;
     }
 }

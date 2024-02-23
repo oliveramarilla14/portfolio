@@ -1,7 +1,6 @@
 import githubpng from '../assets/github.png'
 
 function ProyectCard ({ proyect }) {
-  console.log(proyect)
   const { title, img, url, github, techs, description } = proyect
 
   const style = {

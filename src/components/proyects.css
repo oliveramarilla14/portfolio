@@ -1,13 +1,19 @@
 #proyects {
     padding: 50px 0;
 
-    .list {
+    .project-list {
+        margin-top: 20px;
         display: flex;
         flex-wrap: wrap;
+        gap: 20px 30px;
         align-items: center;
         justify-content: center;
-        gap: 20px;
-        padding: 30px 0;
+
+        .card {
+            height: 250px;
+            width: 300px;
+            border: white 1px solid;
+        }
     }
 
 }
@@ -27,7 +33,6 @@
     background-size: cover;
     position: relative;
     border-radius: 5%;
-    border: white 1px solid;
     overflow: hidden;
     height: 100%;
     width: 100%;
