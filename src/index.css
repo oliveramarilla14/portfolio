@@ -75,3 +75,20 @@ header {
 .app footer.bg-black {
   text-align: center;
 }
+
+
+@media only screen and (max-width: 710px) {
+  header#header {
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .hide-mq {
+    display: none;
+  }
+
+  .title {
+    text-align: center;
+  }
+}
