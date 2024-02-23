@@ -71,3 +71,7 @@ header {
 .bg-black {
   background-color: #161616;
 }
+
+.app footer.bg-black {
+  text-align: center;
+}

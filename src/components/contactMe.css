@@ -1,0 +1,79 @@
+.contact {
+    padding: 20px 0;
+}
+
+.contact-items {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        label {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            width: 300px;
+
+            input,
+            textarea {
+                border: none;
+                outline: none;
+                padding: 10px 15px;
+                border-radius: 10px;
+                font-size: 16px;
+            }
+
+            textarea {
+                resize: none;
+            }
+        }
+
+        button {
+            color: white;
+            background-color: #6fff00a4;
+            font-size: 20px;
+            font-weight: bold;
+            border: none;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            cursor: pointer;
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+        }
+    }
+}
+
+.contact-media {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+
+        a i {
+            font-size: 60px;
+        }
+    }
+
+    a.btn {
+        background-color: #6fff00a4;
+        padding: 15px 20px;
+        border-radius: 10px;
+        font-weight: bold;
+        font-size: 16px;
+        justify-self: center;
+        font-family: 'Courier New', Courier, monospace;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
