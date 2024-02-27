@@ -5,6 +5,6 @@
 
  - better form validation
  - animations
- - more proyects
  - lenguage switch
  - dark/light mode
+ - drag and drop

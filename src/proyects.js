@@ -2,6 +2,7 @@ import crudRedux from './assets/redux-crud.png'
 import quotesApp from './assets/quotesapp.png'
 import quizApp from './assets/quizapp.png'
 import ageCalcApp from './assets/agecalculator.png'
+import starWarsApi from './assets/starwarsapi.png'
 import { techs } from './assets/techs'
 
 export const proyectsList = [
@@ -12,6 +13,14 @@ export const proyectsList = [
     github: 'https://github.com/oliveramarilla14/todo',
     techs: [techs.javascript, techs.react, techs.tailwind],
     description: 'ToDo list with options to CRUD using React, Redux Toolkit, Router and tailwind.'
+  },
+  {
+    title: 'Star Wars API',
+    img: starWarsApi,
+    url: 'https://oliverstarwarsapi.netlify.app/',
+    github: 'https://github.com/oliveramarilla14/hero-squad',
+    techs: [techs.javascript, techs.react],
+    description: 'Simple App to consume an API, with search,light/dark theme and routes using react Router.'
   },
   {
     title: 'Age Calculator',
