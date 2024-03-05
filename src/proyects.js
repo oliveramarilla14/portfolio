@@ -3,6 +3,7 @@ import quotesApp from './assets/quotesapp.png'
 import quizApp from './assets/quizapp.png'
 import ageCalcApp from './assets/agecalculator.png'
 import starWarsApi from './assets/starwarsapi.png'
+import shortly from './assets/shortly.png'
 import { techs } from './assets/techs'
 
 export const proyectsList = [
@@ -13,6 +14,14 @@ export const proyectsList = [
     github: 'https://github.com/oliveramarilla14/todo',
     techs: [techs.javascript, techs.react, techs.tailwind],
     description: 'ToDo list with options to CRUD using React, Redux Toolkit, Router and tailwind.'
+  },
+  {
+    title: 'Shortly',
+    img: shortly,
+    url: 'https://shortlyoliver.netlify.app/',
+    github: 'https://github.com/oliveramarilla14/link-shorter',
+    techs: [techs.javascript, techs.react],
+    description: 'Functional link shorter with bit.ly API using styled components in react.'
   },
   {
     title: 'Star Wars API',
