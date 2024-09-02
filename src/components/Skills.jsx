@@ -1,5 +1,5 @@
 import './skills.css'
-import { techsArray } from '../assets/techs'
+import { techsData } from '../assets/techs'
 
 function Skills () {
   return (
@@ -7,7 +7,7 @@ function Skills () {
       <div className='skills container'>
         <h3 className='title'>skills<span>( )</span></h3>
         <div className='list'>
-          {techsArray.map((tech, i) => <div key={i}> <img src={tech} /></div>)}
+          {techsData.map(([name, tech], i) => <div key={i}> <img src={tech} />{name}</div>)}
         </div>
         <div />
       </div>

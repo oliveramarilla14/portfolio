@@ -1,24 +1,47 @@
-import githubPng from './github.png'
-import javascript from './javascript.png'
-import react from './react.png'
-import tailwind from './tailwind.png'
-import bootstrap from './bootstrap.png'
-import git from './git.png'
-import html5 from './html5.png'
-import npm from './npm.png'
-import css from './css.png'
-import sass from './sass.png'
+import Github from './github.png'
+import JavaScript from './javascript.png'
+import React from './react.png'
+import Tailwind from './tailwind.png'
+import Bootstrap from './bootstrap.png'
+import Git from './git.png'
+import HTML5 from './html5.png'
+import NPM from './npm.png'
+import CSS from './css.png'
+import SASS from './sass.png'
+import Node from './nodejs.png'
+import PHP from './php.png'
+import TypeScript from './typescript.png'
+import Laravel from './laravel.svg'
+import Bash from './bash.png'
+import Docker from './docker.png'
+import Linux from './linux.png'
+import MongoDB from './mongodb.png'
+import MySQL from './mysql.png'
+import PostgreSQL from './postgre.png'
+import NextJs from './nextjs.svg'
 
 export const techs = {
-  html5,
-  css,
-  javascript,
-  react,
-  npm,
-  bootstrap,
-  sass,
-  tailwind,
-  git,
-  githubPng
+  // HTML5,
+  // CSS,
+  JavaScript,
+  React,
+  // NPM,
+  Bootstrap,
+  SASS,
+  Tailwind,
+  Git,
+  // Github,
+  Node,
+  PHP,
+  TypeScript,
+  Laravel,
+  // Bash,
+  Docker,
+  // Linux,
+  MongoDB,
+  // MySQL,
+  PostgreSQL,
+  NextJs
 }
 export const techsArray = [...Object.values(techs)]
+export const techsData = [...Object.entries(techs)]
