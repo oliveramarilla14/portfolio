@@ -3,12 +3,20 @@ import { motion } from 'framer-motion'
 export default function Marquee ({ items, position }) {
   return (
     <div className='gradient'>
-      <motion.div className='list' initial={{ x: position.from }} animate={{ x: position.to }} transition={{ duration: 30, repeat: Infinity, ease: 'linear' }}>
-        {items.map(([name, tech], i) => <div key={i}> <img src={tech} />{name}</div>)}
-      </motion.div>
-      <motion.div className='list' initial={{ x: position.from }} animate={{ x: position.to }} transition={{ duration: 30, repeat: Infinity, ease: 'linear' }}>
-        {items.map(([name, tech], i) => <div key={i}> <img src={tech} />{name}</div>)}
-      </motion.div>
+      {[1, 2].map(i =>
+        <motion.div
+          key={i} className='list'
+          initial={{ x: position.from }}
+          animate={{ x: position.to }}
+          transition={{ duration: 30, repeat: Infinity, ease: 'linear' }}
+        >
+          {items.map(([name, tech], i) =>
+            <motion.div whileHover={{ scale: 1.2 }} className='marquee-item' key={i}>
+              <img src={tech} />
+              {name}
+            </motion.div>)}
+        </motion.div>
+      )}
     </div>
   )
 }
