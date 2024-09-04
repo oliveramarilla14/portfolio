@@ -54,15 +54,15 @@ function BentoContainer () {
 
       <MediaQuery query='(max-width: 709px)'>
         <main className='bento-container-mq container' id='bento'>
-          <BentoItem columns='1/3' rows='1/4' img={porfileWeb} />
+          <BentoItem columns='1/3' rows='1/4' img={porfileWeb} animate='top' transition={{ duration: 1.25, delay: 0.7 }} />
 
-          <BentoItem columns='1/2'>
+          <BentoItem columns='1/2' animate='left' transition={{ duration: 1.25, delay: 1 }}>
             <p style={{ ...descriptionStyle, fontSize: '30px', paddingTop: '20px' }}>
               Full-Stack<span style={{ color: '#70FF00' }}>{'</>'}</span> developer
             </p>
           </BentoItem>
-          <BentoItem columns='2/3' img={pyflag} />
-          <BentoItem columns='1/3' className='about' align='left'>
+          <BentoItem columns='2/3' img={pyflag} animate='right' transition={{ duration: 1.25, delay: 0.2 }} />
+          <BentoItem columns='1/3' className='about' align='left' animate='bottom' transition={{ duration: 1.25, delay: 0.2 }}>
             <h3 className='title'>aboutMe<span>( )</span></h3>
             <p>Passionate about technology from an early age, with outstanding skills in the assembly, installation and configuration of various electronic devices. Committed to proactive assistance and always willing to learn and help.</p>
           </BentoItem>
