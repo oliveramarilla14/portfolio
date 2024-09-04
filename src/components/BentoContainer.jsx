@@ -22,7 +22,6 @@ function BentoContainer () {
 
   return (
     <>
-
       <main className='bento-container container hide-mq' id='bento'>
         <BentoItem columns='1/3' rows='1/3' animate='left' transition={{ duration: 1.25, delay: 0.25 }}> <ProyectCard proyect={proyectsList[0]} /></BentoItem>
         <BentoItem columns='3/5' rows='1/4' img={porfileWeb} animate='top' transition={{ duration: 1.25, delay: 1.25 }} />

@@ -21,25 +21,25 @@ import PostgreSQL from './postgre.png'
 import NextJs from './nextjs.svg'
 
 export const techs = {
-  // HTML5,
-  // CSS,
+  HTML5,
+  CSS,
   JavaScript,
   React,
-  // NPM,
+  NPM,
   Bootstrap,
   SASS,
   Tailwind,
   Git,
-  // Github,
+  Github,
   Node,
   PHP,
   TypeScript,
   Laravel,
-  // Bash,
+  Bash,
   Docker,
-  // Linux,
+  Linux,
   MongoDB,
-  // MySQL,
+  MySQL,
   PostgreSQL,
   NextJs
 }
