@@ -11,7 +11,7 @@ export default function Marquee ({ items, position }) {
           transition={{ duration: 30, repeat: Infinity, ease: 'linear' }}
         >
           {items.map(([name, tech], i) =>
-            <motion.div whileHover={{ scale: 1.2 }} className='marquee-item' key={i}>
+            <motion.div whileHover={{ scale: 1.1 }} className='marquee-item' key={i}>
               <img src={tech} />
               {name}
             </motion.div>)}
