@@ -1,8 +1,8 @@
-import crudRedux from './assets/redux-crud.png'
-import ageCalcApp from './assets/agecalculator.png'
-import shortly from './assets/shortly.png'
-import fastTournament from './assets/fast-tournament.webp'
-import { techs } from './assets/techs'
+import crudRedux from './assets/redux-crud.png';
+import ageCalcApp from './assets/agecalculator.png';
+import shortly from './assets/shortly.png';
+import fastTournament from './assets/fast-tournament.webp';
+import { techs } from './assets/techs';
 
 export const proyectsList = [
   {
@@ -10,7 +10,7 @@ export const proyectsList = [
     img: fastTournament,
     url: 'https://fast-tournament.omad.site/',
     github: 'https://github.com/oliveramarilla14/org-front',
-    techs: [techs.react],
+    techs: [techs.React],
     description: 'Fullstack football tournament manager with features like fixture, team register, payments, etc.'
   },
   {
@@ -18,7 +18,7 @@ export const proyectsList = [
     img: crudRedux,
     url: 'https://olivertodoapp.netlify.app/',
     github: 'https://github.com/oliveramarilla14/todo',
-    techs: [techs.javascript, techs.react, techs.tailwind],
+    techs: [techs.JavaScript, techs.React, techs.Tailwind],
     description: 'ToDo list with options to CRUD using React, Redux Toolkit, Router and tailwind.'
   },
   {
@@ -26,7 +26,7 @@ export const proyectsList = [
     img: shortly,
     url: 'https://shortlyoliver.netlify.app/',
     github: 'https://github.com/oliveramarilla14/link-shorter',
-    techs: [techs.javascript, techs.react],
+    techs: [techs.JavaScript, techs.React],
     description: 'Functional link shorter with bit.ly API using styled components in react.'
   },
   {
@@ -34,7 +34,7 @@ export const proyectsList = [
     img: ageCalcApp,
     url: 'https://oliveragecalc.netlify.app/',
     github: 'https://github.com/oliveramarilla14/agecalculator',
-    techs: [techs.javascript, techs.react],
+    techs: [techs.JavaScript, techs.React],
     description: 'Front-end mentor challenge with react.'
   }
-]
+];

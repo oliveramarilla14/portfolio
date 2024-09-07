@@ -64,12 +64,7 @@
         }
 
 
-        &:hover {
-            bottom: 0;
-        }
 
-        footer {
-            align-self: flex-end;
-        }
+
     }
 }
