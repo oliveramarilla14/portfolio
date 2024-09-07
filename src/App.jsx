@@ -1,10 +1,10 @@
-import BentoContainer from './components/BentoContainer'
-import ContactMe from './components/ContactMe'
-import Header from './components/Header'
-import Proyects from './components/Proyects'
-import Skills from './components/Skills'
+import BentoContainer from './components/BentoContainer';
+import ContactMe from './components/ContactMe';
+import Header from './components/Header';
+import Proyects from './components/Proyects';
+import Skills from './components/Skills';
 
-function App () {
+function App() {
   return (
     <div className='app'>
       <Header />
@@ -12,11 +12,9 @@ function App () {
       <Skills />
       <Proyects />
       <ContactMe />
-      <footer className='bg-black'>
-        Oliver Amarilla - 2024
-      </footer>
+      <footer className='bg-black'>Oliver Amarilla - 2024</footer>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -2,7 +2,7 @@ import { calcLength, motion } from 'framer-motion';
 import githubpng from '../assets/github.png';
 
 export default function ProyectModal({ proyect, setSelectedProyect }) {
-  const { title, img, url, github, techs, description } = proyect;
+  const { title, url, github, techs, description } = proyect;
   console.log(techs);
   return (
     <motion.div
