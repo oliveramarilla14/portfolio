@@ -49,7 +49,7 @@ export default function ProyectModal({ proyect, setSelectedProyect }) {
           <video
             style={{
               width: '100%',
-              height: '100%',
+              height: '80%',
               objectFit: 'cover'
             }}
             controls
