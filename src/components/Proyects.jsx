@@ -8,7 +8,7 @@ function Proyects() {
   const [selectedProyect, setSelectedProyect] = useState(null);
   console.log(selectedProyect);
   return (
-    <>
+    <LayoutGroup>
       <section className='container' id='proyects'>
         <h3 className='title'>
           proyects<span>( )</span>
@@ -20,7 +20,7 @@ function Proyects() {
         </div>
       </section>
       {selectedProyect && <ProyectModal proyect={selectedProyect} setSelectedProyect={setSelectedProyect} />}
-    </>
+    </LayoutGroup>
   );
 }
 

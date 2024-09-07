@@ -3,6 +3,7 @@ import ageCalcApp from './assets/agecalculator.png';
 import shortly from './assets/shortly.png';
 import fastTournament from './assets/fast-tournament.webp';
 import { techs } from './assets/techs';
+import fastTournamentVideo from './assets/videos/fastTournamentVideo.mp4';
 
 export const proyectsList = [
   {
@@ -11,7 +12,8 @@ export const proyectsList = [
     url: 'https://fast-tournament.omad.site/',
     github: 'https://github.com/oliveramarilla14/org-front',
     techs: [techs.React],
-    description: 'Fullstack football tournament manager with features like fixture, team register, payments, etc.'
+    description: 'Fullstack football tournament manager with features like fixture, team register, payments, etc.',
+    video: fastTournamentVideo
   },
   {
     title: 'ToDo List',
